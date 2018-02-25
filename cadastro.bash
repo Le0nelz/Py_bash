@@ -87,3 +87,4 @@ clear
 echo "Cadastro Concluido, Caso Algum Item Do Cadastro De Invalido Tente Novamente"
 sleep 5
 clear
+Py_bash
