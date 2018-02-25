@@ -32,43 +32,43 @@ MASCARA = raw_input("Mascara :")
  
 os.system("clear")
 if re.match("^([A-Z|a-z]{1,}\ [A-Z|a-z]{1,}|[A-Z|a-z]{1,})$", NOME):
-         print("Nome correto")
+         print("Nome Valido")
 else:
-         print("Nome invalido")
+         print("Nome Invalido")
 
 if re.match('^.{1,}@[a-zA-Z]{1,}\.(com|br|com.br|sp|sp)$', EMAIL):
-         print("E-mail correto")
+         print("E-mail Valido")
  else:
-         print("E-Mail invalido")
+         print("E-Mail Invalido")
 
 if re.match('^\([0-9]{2}\)[0-9]{5}-[0-9]{4}$', TELEFONE):
-         print("Telefone correto")
+         print("Telefone Valido")
 else:
-         print("Telefone invalido")
+         print("Telefone Invalido")
 
 if re.match('^[0-9]{2,3}\.[0-9]{3}\.[0-9]{3}-[0-9]$', RG):
-         print("RG correto")
+         print("RG Valido")
 else:
-         print("RG invalido")
+         print("RG Invalido")
 
 if re.match('^[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}$', CPF):
-         print("CPF correto")
+         print("CPF Valido")
 else:
-         print("CPF invalido")
+         print("CPF Invalido")
 
 if re.match('^(0[1-9]|[12][0-9]|3[0-1])/(0[1-9]|1[0-2])/(19[0-9]{2}|200[0-9]|201[0-8])$', DATA):
-         print("Data de Nascimento correto")
+         print("Data Valida")
 else:
-         print("Data de Nascimento invalido")
+         print("Data Invalida")
 
 if re.match('^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$', ADDRESS):
-         print("IP correto")
+         print("IP Valido")
 else:
-         print("IP invalido")
+         print("IP Invalido")
 
 if re.match('^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$', MASCARA):
-         print("Máscara correta")
+         print("Mascara Valida")
 else:
-         print("Mascara invalido")
+         print("Mascara Invalida")
 #Py_bash
 
